@@ -1,0 +1,215 @@
+main {
+  padding: 10%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  margin: 50px 0;
+}
+
+.about__me h2,
+.techs h2,
+.projects h2,
+.experience h2,
+.services h2,
+.depoiments h2,
+.curriculum h2,
+.contact h2 {
+  margin: 5px 0;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+.techs h2 span {
+  display: block;
+}
+
+.about__me p,
+.projects p,
+.contact p {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: whitesmoke;
+  line-height: 3rem;
+}
+
+.logo__section img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.techs,
+.projects,
+.experience,
+.services,
+.depoiments,
+.curriculum,
+.contact {
+  padding: 25px 0;
+}
+
+.knowledge__list,
+.knowledge__list ul {
+  list-style: none;
+}
+
+.knowledge__list li h3 {
+  color: #fff;
+}
+
+.knowledge__list li {
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.projects {
+  margin: 50px 0;
+}
+
+.experience section,
+.services ul,
+.depoiments section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  color: whitesmoke;
+  margin: 50px 0;
+}
+
+.experience section p,
+.services ul li,
+.depoiments section blockquote {
+  width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+  line-height: 25px;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.curriculum a {
+  text-decoration: none;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+form section label {
+  display: block;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 13px 0;
+}
+
+form section input,
+form section textarea {
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #33bbcf;
+  color: #fff;
+}
+
+form section input[type="submit"] {
+  margin: 10px 0;
+  background-color: #33bbcf;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.5s ease;
+}
+
+form section input[type="submit"]:hover {
+  background-color: whitesmoke;
+  color: #33bbcf;
+}
+
+@media screen and (min-width: 650px) {
+  .about__me h2,
+  .techs h2,
+  .projects h2,
+  .experience h2,
+  .services h2,
+  .depoiments h2,
+  .curriculum h2,
+  .contact h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .logo__section {
+    text-align: center;
+  }
+
+  .logo__section img {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .about__me p,
+  .projects p,
+  .contact p {
+    font-size: 1rem;
+    max-width: 900px;
+  }
+
+  .contact p {
+    font-size: 1.5rem;
+  }
+
+  .logo__section img {
+    width: 70%;
+  }
+
+  .experience section,
+  .services ul,
+  .depoiments section {
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+
+  .experience section p,
+  .services ul li,
+  .depoiments section blockquote {
+    font-size: 1.5rem;
+    width: 350px;
+    padding: 30px;
+  }
+
+  form section label {
+    font-size: 2rem;
+  }
+
+  form section input,
+  form section textarea {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .logo__section img {
+    width: 50%;
+  }
+
+  .experience section,
+  .services ul,
+  .depoiments section {
+    flex-wrap: nowrap;
+  }
+}

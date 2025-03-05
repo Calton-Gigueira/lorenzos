@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Abass Lourenço - Portfólio Pessoal</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/observer.css" />
+  </head>
+  <body class="bg-black-gradient-2 font-poppins">
+    <header>
+      <h1 class="text-gradient logo">Lourenzo's <span>Services</span></h1>
+      <nav class="navbar">
+        <button class="menu__btn">&#9776;</button>
+        <menu class="">
+          <ul class="menu__list bg-black-gradient-2">
+            <li><a class="menu__link" href="#sobre">Sobre</a></li>
+            <li>
+              <a class="menu__link" href="#tecnologias"
+                >Conhecimentos e Capacidades</a
+              >
+            </li>
+            <li><a class="menu__link" href="#projetos">Projetos</a></li>
+            <li><a class="menu__link" href="#experiencia">Experiencia</a></li>
+            <li><a class="menu__link" href="#servicos">Serviços</a></li>
+            <li><a class="menu__link" href="#depoimentos">Depoimentos</a></li>
+            <li><a class="menu__link" href="#curriculo">Curriculo</a></li>
+            <li><a class="menu__link" href="#contato">Contacte</a></li>
+          </ul>
+        </menu>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre" class="about hidden">
+        <section class="about__me">
+          <h2 class="text-gradient">Sobre <span>mim</span></h2>
+          <p>Estudante de TI | CEO da Lorenzo's Service</p>
+          <p>
+            Respondo pelo nome de
+            <strong class="text-gradient">Abass Lourenço</strong>, sou um
+            desenvolvedor web com experiência em HTML e CSS, criando interfaces
+            modernas, responsivas e funcionais. Além do desenvolvimento web,
+            atuo como freelancer, realizando trabalhos acadêmicos e científicos
+            com qualidade e precisão.
+          </p>
+          <p>
+            Tenho domínio nas ferramentas Microsoft Word, Excel, PowerPoint e
+            Access, permitindo-me produzir relatórios, apresentações e bancos de
+            dados eficientes para diferentes necessidades.
+          </p>
+          <p>
+            Seja para construir um site profissional ou desenvolver um projeto
+            acadêmico bem estruturado, estou pronto para oferecer soluções
+            criativas e eficazes.
+          </p>
+        </section>
+        <section class="logo__section">
+          <img
+            src="./logo.jpeg"
+            alt="Logo da Lourenzo's Service"
+            width="400px"
+          />
+        </section>
+      </section>
+
+      <section id="tecnologias" class="techs hidden">
+        <h2 class="text-gradient">Conhecimentos <span>e Capacidades</span></h2>
+        <ul class="knowledge__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>
+            <h3>Ferramentas de Trabalho da Microsoft</h3>
+            <ul>
+              <li>Word</li>
+              <li>Excel</li>
+              <li>Power Point</li>
+              <li>Access</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="projetos" class="projects hidden">
+        <h2 class="text-gradient">Meus Projectos</h2>
+        <p>
+          Actualmente me encontro sem projetos mas em breve irei adiciona-los.
+        </p>
+      </section>
+
+      <section id="experiencia" class="experience hidden">
+        <h2 class="text-gradient">Experiência Profissional</h2>
+        <section>
+          <p class="feedback-card">
+            Trabalhei como freelancer, criando sites modernos e responsivos.
+          </p>
+          <p class="feedback-card">
+            Atualmente sou CEO da Lorenzo’s Service, onde oferecemos serviços de
+            desenvolvimento web e consultoria acadêmica.
+          </p>
+        </section>
+      </section>
+
+      <section id="servicos" class="services hidden">
+        <h2 class="text-gradient">Serviços que ofereço</h2>
+        <ul>
+          <li class="feedback-card">
+            Criação de sites responsivos e dinâmicos
+          </li>
+          <li class="feedback-card">Consultoria para desenvolvimento web</li>
+          <li class="feedback-card">Trabalhos acadêmicos e científicos</li>
+          <li class="feedback-card">
+            Criação de relatórios e apresentações profissionais
+          </li>
+        </ul>
+      </section>
+
+      <section id="depoimentos" class="depoiments hidden">
+        <h2 class="text-gradient">O que dizem sobre mim</h2>
+        <section>
+          <blockquote class="feedback-card">
+            "O trabalho do Abass é incrível! Ele me ajudou a desenvolver meu
+            projeto com muita dedicação." - Cliente X
+          </blockquote>
+          <blockquote class="feedback-card">
+            "Profissional altamente qualificado e comprometido com a qualidade."
+            - Cliente Y
+          </blockquote>
+        </section>
+      </section>
+
+      <section id="curriculo" class="curriculum hidden">
+        <h2 class="text-gradient">Baixe meu currículo 👇</h2>
+        <a
+          href="caminho-do-curriculo.pdf"
+          download="Curriculo_Abass_Lourenco.pdf"
+          >Baixar PDF</a
+        >
+      </section>
+
+      <section id="contato" class="contact hidden">
+        <h2 class="text-gradient">Me contacte</h2>
+        <p>
+          Tens uma questão ou uma propósta, ou só queres dizer olá? Vá em
+          frente! Me envie um email!
+        </p>
+        <form  id="contact-form">
+          <section>
+            <label for="nome">Nome Completo</label>
+            <input
+              class="bg-discount-gradient"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Insira o seu nome completo"
+            />
+          </section>
+          <section>
+            <label for="email">Email</label>
+            <input
+              class="bg-discount-gradient"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Insira o seu email"
+            />
+          </section>
+          <section>
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              class="bg-discount-gradient"
+              name="mensagem"
+              id="mensagem"
+              placeholder="Me envie um feedback..."
+              rows="5"
+              cols="50"
+            ></textarea>
+          </section>
+          <section>
+            <input type="submit" value="Enviar" />
+          </section>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer__links hidden">
+        <section class="footer__links-contact">
+          <h5 class="text-gradient">Me contacte</h5>
+          <p>E-mail: abasslourenco786@gmail.com</p>
+          <p>Chamada: 87 68 88 640</p>
+          <p>
+            Estou disponível para colaborações, projetos e trocas de ideias!
+          </p>
+        </section>
+        <section class="footer__links-net">
+          <h5 class="text-gradient">Minhas redes</h5>
+          <a href="link do teu do whatsapp" target="_blank">Whatsapp</a>
+          <a href="link to teu insta" target="_blank">Instagram</a>
+          <a href="link to teu x" target="_blank">X</a>
+          <a href="link to teu linkedin" target="_blank">LinkedIn</a>
+          <a href="link to teu youtube" target="_blank">Youtube</a>
+        </section>
+        <section class="footer__links-dev">
+          <p>
+            <a href="#" target="_blank">Desenvolvido por Calton Gigueira</a>
+          </p>
+        </section>
+      </section>
+      <hr />
+      <section class="copyright">
+        <p>&copy; 2025 Lourenzo's Services</p>
+      </section>
+    </footer>
+
+    <script type="module" src="./scripts/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </body>
+</html>
